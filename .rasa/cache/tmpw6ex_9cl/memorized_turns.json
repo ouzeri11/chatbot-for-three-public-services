@@ -1,0 +1,9 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_ask_service",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfGJxdnxQM1lmcmpOM2JBQCNEzcP": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfGJxdnxQM1lmcmpZJpDwC1Qw+Mz89Lya2tjAeIMU8g=": "action_find_and_show_service_info",
+    "eJydzsEJgDAMBdBVOoATdBWRUDRqUFNp03oo7m5AL54qHgL58PNIW87GlD1gBtcLebam3Auw29CaJ6wUBVm7KWLQDrFGsWYKiHJWjCSCAVxcQI8z9fjTqfzy4EA8+o/USDyA04mzP+AFVPjuAs9veKA=": "action_listen"
+  }
+}

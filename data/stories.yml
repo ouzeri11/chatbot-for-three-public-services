@@ -1,0 +1,343 @@
+version: "3.1"
+
+stories:
+
+- story: diadikasia 1 dikaiologitika
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia1
+  - action: utter_ask_what
+  - intent: dikaiologitika
+  - action: utter_dikaiologitika1
+  - action: utter_more_info
+
+- story: diadikasia 1 dikaiouxos true
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia1
+  - action: utter_ask_what
+  - intent: dikaiouxos
+  - action: utter_dikaiouxos1FirstQuestion
+  - intent: affirm
+  - action: utter_dikaiouxos1SecondQuestion
+  - intent: affirm
+  - action: utter_dikaiouxos
+  - action: utter_more_info
+
+- story: diadikasia 1 dikaiouxos false1
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia1
+  - action: utter_ask_what
+  - intent: dikaiouxos
+  - action: utter_dikaiouxos1FirstQuestion
+  - intent: deny
+  - action: utter_notdikaiouxos
+  - action: utter_more_info
+
+
+- story: diadikasia 1 dikaiouxos false2
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia1
+  - action: utter_ask_what
+  - intent: dikaiouxos
+  - action: utter_dikaiouxos1FirstQuestion
+  - intent: affirm
+  - action: utter_dikaiouxos1SecondQuestion
+  - intent: deny
+  - action: utter_notdikaiouxos
+  - action: utter_more_info
+
+
+- story: diadikasia 1 cost
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia1
+  - action: utter_ask_what
+  - intent: cost
+  - action: utter_cost1
+  - action: utter_more_info
+
+- story: diadikasia 1 Kanalia Eksipiretisis
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia1
+  - action: utter_ask_what
+  - intent: kanalia
+  - action: utter_kanalia1
+  - action: utter_more_info
+
+- story: diadikasia 1 perigrafi
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia1
+  - action: utter_ask_what
+  - intent: perigrafi
+  - action: utter_perigrafi1
+  - action: utter_more_info
+
+- story: diadikasia 1 nomothesia
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia1
+  - action: utter_ask_what
+  - intent: nomothesia
+  - action: utter_nomothesia1
+  - action: utter_more_info
+
+- story: diadikasia 1 armodiosforeas
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia1
+  - action: utter_ask_what
+  - intent: armodios
+  - action: utter_armodios1
+  - action: utter_more_info
+
+- story: diadikasia 1 diarkeia
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia1
+  - action: utter_ask_what
+  - intent: diarkeia
+  - action: utter_diarkeia1
+  - action: utter_more_info
+
+- story: diadikasia 1 eksodoi
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia1
+  - action: utter_ask_what
+  - intent: eksodoi
+  - action: utter_eksodoi1
+  - action: utter_more_info
+
+
+
+
+
+
+- story: diadikasia 2 dikaiologitika
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia2
+  - action: utter_ask_what
+  - intent: dikaiologitika
+  - action: utter_dikaiologitika2
+  - action: utter_more_info
+
+- story: diadikasia 2 dikaiouxos true
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia2
+  - action: utter_ask_what
+  - intent: dikaiouxos
+  - action: utter_dikaiouxos2FirstQuestion
+  - intent: affirm
+  - action: utter_dikaiouxos2SecondQuestion
+  - intent: affirm
+  - action: utter_dikaiouxos
+  - action: utter_more_info
+
+- story: diadikasia 2 dikaiouxos false1
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia2
+  - action: utter_ask_what
+  - intent: dikaiouxos
+  - action: utter_dikaiouxos2FirstQuestion
+  - intent: deny
+  - action: utter_notdikaiouxos
+  - action: utter_more_info
+
+
+- story: diadikasia 2 dikaiouxos false2
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia2
+  - action: utter_ask_what
+  - intent: dikaiouxos
+  - action: utter_dikaiouxos2FirstQuestion
+  - intent: affirm
+  - action: utter_dikaiouxos2SecondQuestion
+  - intent: deny
+  - action: utter_notdikaiouxos
+  - action: utter_more_info
+
+
+- story: diadikasia 2 cost
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia2
+  - action: utter_ask_what
+  - intent: cost
+  - action: utter_cost2
+  - action: utter_more_info
+
+- story: diadikasia 2 Kanalia Eksipiretisis
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia2
+  - action: utter_ask_what
+  - intent: kanalia
+  - action: utter_kanalia2
+  - action: utter_more_info
+
+- story: diadikasia 2 perigrafi
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia2
+  - action: utter_ask_what
+  - intent: perigrafi
+  - action: utter_perigrafi2
+  - action: utter_more_info
+
+- story: diadikasia 2 nomothesia
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia2
+  - action: utter_ask_what
+  - intent: nomothesia
+  - action: utter_nomothesia2
+  - action: utter_more_info
+
+- story: diadikasia 2 armodiosforeas
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia2
+  - action: utter_ask_what
+  - intent: armodios
+  - action: utter_armodios2
+  - action: utter_more_info
+
+- story: diadikasia 2 diarkeia
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia2
+  - action: utter_ask_what
+  - intent: diarkeia
+  - action: utter_diarkeia2
+  - action: utter_more_info
+
+- story: diadikasia 2 eksodoi
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia2
+  - action: utter_ask_what
+  - intent: eksodoi
+  - action: utter_eksodoi2
+  - action: utter_more_info
+
+
+  
+- story: diadikasia 3 dikaiologitika
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia3
+  - action: utter_ask_what
+  - intent: dikaiologitika
+  - action: utter_dikaiologitika3
+  - action: utter_more_info
+
+- story: diadikasia 3 dikaiouxos true1
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia3
+  - action: utter_ask_what
+  - intent: dikaiouxos
+  - action: utter_dikaiouxos3FirstQuestion
+  - intent: affirm
+  - action: utter_dikaiouxos
+  - action: utter_more_info
+
+- story: diadikasia 3 dikaiouxos true2
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia3
+  - action: utter_ask_what
+  - intent: dikaiouxos
+  - action: utter_dikaiouxos3FirstQuestion
+  - intent: deny
+  - action: utter_dikaiouxos3SecondQuestion
+  - intent: affirm
+  - action: utter_dikaiouxos
+  - action: utter_more_info
+
+
+- story: diadikasia 3 dikaiouxos false
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia3
+  - action: utter_ask_what
+  - intent: dikaiouxos
+  - action: utter_dikaiouxos3FirstQuestion
+  - intent: deny
+  - action: utter_dikaiouxos3SecondQuestion
+  - intent: deny
+  - action: utter_notdikaiouxos
+  - action: utter_more_info
+
+
+- story: diadikasia 3 cost
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia3
+  - action: utter_ask_what
+  - intent: cost
+  - action: utter_cost3
+  - action: utter_more_info
+
+- story: diadikasia 3 Kanalia Eksipiretisis
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia3
+  - action: utter_ask_what
+  - intent: kanalia
+  - action: utter_kanalia3
+  - action: utter_more_info
+
+- story: diadikasia 3 perigrafi
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia3
+  - action: utter_ask_what
+  - intent: perigrafi
+  - action: utter_perigrafi3
+  - action: utter_more_info
+
+- story: diadikasia 3 nomothesia
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia3
+  - action: utter_ask_what
+  - intent: nomothesia
+  - action: utter_nomothesia3
+  - action: utter_more_info
+
+- story: diadikasia 3 armodiosforeas
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia3
+  - action: utter_ask_what
+  - intent: armodios
+  - action: utter_armodios3
+  - action: utter_more_info
+
+- story: diadikasia 3 diarkeia
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia3
+  - action: utter_ask_what
+  - intent: diarkeia
+  - action: utter_diarkeia3
+  - action: utter_more_info
+
+- story: diadikasia 3 eksodoi
+  steps:
+  - action: utter_ask_service
+  - intent: diadikasia3
+  - action: utter_ask_what
+  - intent: eksodoi
+  - action: utter_eksodoi3
+  - action: utter_more_info

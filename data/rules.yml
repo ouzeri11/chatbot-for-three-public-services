@@ -1,0 +1,52 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Go to the start anytime the user wants more information
+  steps:
+  - action: utter_more_info
+  - intent: affirm
+  - action: utter_ask_service
+  - action: utter_ps
+
+- rule: Say goodbye after deny of more info
+  steps:
+  - action: utter_more_info
+  - intent: deny
+  - action: utter_goodbye
+
+- rule: Say hello and what you offer
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ask_service
+
+- rule: third dikaiouxos
+  steps:
+  - action: utter_dikaiouxos3FirstQuestion
+  - intent: deny
+  - action: utter_dikaiouxos3SecondQuestion
+
+
+- rule: second dikaiouxos
+  steps:
+  - action: utter_dikaiouxos2FirstQuestion
+  - intent: affirm
+  - action: utter_dikaiouxos2SecondQuestion
+
+- rule: first dikaiouxos
+  steps:
+  - action: utter_dikaiouxos1FirstQuestion
+  - intent: affirm
+  - action: utter_dikaiouxos1SecondQuestion
+
